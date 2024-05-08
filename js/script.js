@@ -8,3 +8,4 @@ let password = userName + userSurname + userColor + 24;
 
 console.log(password)
 
+document.getElementById("password").innerHTML = password;
